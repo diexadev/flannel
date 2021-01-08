@@ -1,1 +1,0 @@
-Kerangka kerja PHP sederhana.

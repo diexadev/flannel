@@ -1,7 +1,7 @@
 {
 	"name": "diexadev/flannel",
 	"description": "Kerangka kerja PHP sederhana Flannel",
-	"version": "dev-master",
+	"version": "1.0",
 	"type": "project",
 	"keywords": [
 		"diexadev",
@@ -18,17 +18,15 @@
 			"role": "Developer"
 		}
 	],
-	"support": [
-		{
+	"support": {
 			"email": "diexadev@gmail.com",
 			"issues": "https://github.com/diexadev/flannel/issues",
 			"source": "https://github.com/diexadev/flannel/",
 			"chat": "https://t.me/diexaadhitiya"
-		}
-	],
+	},
 	"require": {
 		"php": ">=5.5",
-		"diexadev/microframework": "dev-master"
+		"diexadev/microframework": "*"
 	},
 	"autoload": {
 		"psr-4": {

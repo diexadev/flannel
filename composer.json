@@ -28,7 +28,7 @@
 	],
 	"require": {
 		"php": ">=5.5",
-		"diexadev/microframework": "^1.0"
+		"diexadev/microframework": "*"
 	},
 	"autoload": {
 		"psr-4": {

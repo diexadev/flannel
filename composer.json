@@ -1,7 +1,7 @@
 {
 	"name": "xxx/gania",
 	"description": "PHP CRUD sederhana Gania",
-	"version": "1.0",
+	"version": "dev-master",
 	"type": "project",
 	"keywords": [
 		"xxx",

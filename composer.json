@@ -1,14 +1,15 @@
 {
 	"name": "diexadev/flannel",
-	"description": "Kerangka kerja PHP sederhana",
+	"description": "Kerangka kerja PHP sederhana Flannel",
 	"version": "1.0",
 	"type": "project",
 	"keywords": [
-		"framework",
 		"diexadev",
+		"microframework",
 		"flannel"
 	],
 	"license": "MIT",
+	"homepage": "https://diexadev.github.io",
 	"authors": [
 		{
 			"name": "Diexa Adhitiya",
@@ -20,17 +21,20 @@
 	"support": [
 		{
 			"email": "diexadev@gmail.com",
+			"issues": "https://github.com/diexadev/flannel/issues",
 			"source": "https://github.com/diexadev/flannel/",
 			"chat": "https://t.me/diexaadhitiya"
 		}
 	],
 	"require": {
-		"php": ">=5.5"
+		"php": ">=5.5",
+		"diexadev/microframework": "^1.0"
 	},
 	"autoload": {
 		"psr-4": {
-			"flannel\\": "src/flannel/"
+			"Project\\": "project/"
 		}
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }

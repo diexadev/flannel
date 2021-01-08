@@ -1,0 +1,36 @@
+{
+	"name": "diexadev/flannel",
+	"description": "Kerangka kerja PHP sederhana",
+	"version": "1.0",
+	"type": "project",
+	"keywords": [
+		"framework",
+		"diexadev",
+		"flannel"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Diexa Adhitiya",
+			"email": "diexadev@gmail.com",
+			"homepage": "https://facebook.com/diexaadhitiya",
+			"role": "Developer"
+		}
+	],
+	"support": [
+		{
+			"email": "diexadev@gmail.com",
+			"source": "https://github.com/diexadev/flannel/",
+			"chat": "https://t.me/diexaadhitiya"
+		}
+	],
+	"require": {
+		"php": ">=5.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"flannel\\": "src/flannel/"
+		}
+	},
+	"minimum-stability": "dev"
+}

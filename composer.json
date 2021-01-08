@@ -1,38 +1,34 @@
 {
-	"name": "diexadev/flannel",
-	"description": "Kerangka kerja PHP sederhana Flannel",
+	"name": "xxx/gania",
+	"description": "PHP CRUD sederhana Gania",
 	"version": "1.0",
 	"type": "project",
 	"keywords": [
-		"diexadev",
-		"microframework",
-		"flannel"
+		"xxx",
+		"CRUD",
+		"gania"
 	],
 	"license": "MIT",
-	"homepage": "https://diexadev.github.io",
 	"authors": [
 		{
-			"name": "Diexa Adhitiya",
-			"email": "diexadev@gmail.com",
-			"homepage": "https://facebook.com/diexaadhitiya",
+			"name": "xxx",
+			"email": "xxx@gmail.com",
+			"homepage": "https://facebook.com/xxx",
 			"role": "Developer"
 		}
 	],
-	"support": [
-		{
-			"email": "diexadev@gmail.com",
-			"issues": "https://github.com/diexadev/flannel/issues",
-			"source": "https://github.com/diexadev/flannel/",
-			"chat": "https://t.me/diexaadhitiya"
-		}
-	],
+	"support": {
+		"email": "xxx@gmail.com",
+		"source": "https://github.com/xxx/gania/",
+		"chat": "https://t.me/xxx"
+	},
 	"require": {
 		"php": ">=5.5",
-		"diexadev/microframework": "*"
+		"diexadev/flannel": "*"
 	},
 	"autoload": {
 		"psr-4": {
-			"Project\\": "project/"
+			"Gania\\": "src/"
 		}
 	},
 	"minimum-stability": "dev",
